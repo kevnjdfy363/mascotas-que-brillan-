@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas que Brillan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ffcc00;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        h1 {
+            color: #333;
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        h2 {
+            color: #0077cc;
+        }
+
+        h3 {
+            color: #ff6600;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .producto {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+            background: #f9f9f9;
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+        }
+
+        .redes-sociales a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            background: #0077cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .redes-sociales a:hover {
+            background: #005fa3;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+
+        .video-container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo1.jpg" alt="Logo de Mascotas que Brillan">
+        <h1>Mascotas que Brillan</h1>
+    </header>
+
+    <div class="container">
+        <h2>Bienvenidos a Mascotas que Brillan</h2>
+        <p>Ofrecemos el mejor cuidado para tu mascota, ya sea a domicilio o en nuestro local.</p>
+
+        <h2>Nuestros Servicios</h2>
+        <p>Baño, corte de uñas, limpieza de oídos, cuidado general para perros y gatos.</p>
+
+        <h2>Ubicación</h2>
+        <p><strong>Avenida La Joya, Minas de Esmeralda 201</strong></p>
+
+        <h2>Productos para tu Mascota</h2>
+
+        <div class="producto">
+            <img src="roseador5.jpg" alt="Rociador para mascotas">
+            <h3>Rociador para mascotas</h3>
+            <p>Refrescante y desinfectante.</p>
+            <p><strong>$120 MXN</strong></p>
+        </div>
+
+        <div class="producto">
+            <img src="oidos2.jpg" alt="Limpiador de oídos">
+            <h3>Limpiador de oídos</h3>
+            <p>Especial para evitar infecciones.</p>
+            <p><strong>$90 MXN</strong></p>
+        </div>
+
+        <div class="producto">
+            <img src="shampu1.jpg" alt="Shampoo de avena">
+            <h3>Shampoo de Avena</h3>
+            <p>Para un pelaje suave y brillante.</p>
+            <p><strong>$150 MXN</strong></p>
+        </div>
+
+        <div class="producto">
+            <img src="patitas2.jpg" alt="Limpiador de patitas">
+            <h3>Limpiador de Patitas</h3>
+            <p>Ideal para después de los paseos.</p>
+            <p><strong>$80 MXN</strong></p>
+        </div>
+
+        <h2>Horario de Atención</h2>
+        <p><strong>Lunes a Viernes:</strong> 8:00 AM - 8:30 PM</p>
+        <p><strong>Sábados y Domingos:</strong> 9:00 AM - 8:00 PM</p>
+
+        <h2>Video sobre el cuidado de mascotas</h2>
+       <iframe width="478" height="849" src="https://www.youtube.com/embed/rNtzuifhcrs" title="A los perros Golden Retriever les ENCANTA esta rutina de baño relajante 🛁🐶💛" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        <h2>Síguenos en Redes Sociales</h2>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/MascotasQueBrillan" class="facebook" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/MascotasQueBrillan" class="instagram" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@MascotasQueBrillan" class="tiktok" target="_blank">TikTok</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mascotas que Brillan | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
